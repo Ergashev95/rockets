@@ -4,8 +4,80 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rockets app</title>
+    <!-- link tailwindcss  -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
 </head>
 <body>
-    
+ 
+
+    <header class="header z-10 bg-teal-700 w-full text-white fixed">
+        <div class="container py-4 mx-auto max-w-4xl flex items-center justify-between">
+            <h1 class="text-4xl font-medium">
+                <a href="" class="header-logo hover:text-orange-700"> 🚀 Acme Rockets</a>
+            </h1>
+
+            <ul class="menu flex space-x-9 hidden md:block md:flex">
+                <li class="menu-item">
+                    <a href="#!" class="menu-link text-xl hover:opacity-60">Our Rockets</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#!" class="menu-link text-xl hover:opacity-60">Testimonials </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#!" class="menu-link text-xl hover:opacity-60">Contact Us</a>
+                </li>
+            </ul>
+
+
+        </div>
+    </header>
+
+    <!-- SITE-MAIN -->
+
+    <main class="site-main">
+        <section class="article">
+            <div class="container mx-auto max-w-4xl flex pt-24 justify-between items-center flex-col-reverse md:flex-row">
+                <article class="w-1/2 " >
+                    <h2 class="max-w-md text-center text-4xl font-bold text-slate-900 dark:text-white sm:text-left sm:text-5xl ">We Boldy Go <span class="text-indigo-600">Where No Rocket</span>  Has Gone  Before...</h2>
+                    <p class="mt-4 max-w-md text-2xl text-slate-700 text-center md:text-left">We're building rockets for the next century today. From the moon to Mars, Jupiter and beyond...
+                        <br> <br>
+                        Think Acme Rockets.
+                    </p>
+                </article>
+                <img src="./img/rocketdab.png" alt="" class="article-image w-1/2 ">
+            </div>
+        </section>
+        <hr class="mt-10 w-1/3 mx-auto ">
+
+        <section class="rockets">
+            <div class="container max-w-4xl mx-auto my-20">
+                <h3 class="rockets-title text-slate-900 font-bold text-5xl text-center">Our Rockets</h3>
+                <div class="rockets-body pt-20 flex gap-8">
+                    <div class="rockets-item w-1/3 bg-slate-100 rounded-[30px] border border-solid border-slate-900 shadow-xl p-5 flex flex-col items-center">
+                        <img src="./img/rocketman.png" alt="" class="rockets-image w-1/2 mx-auto">
+                        <h3 class="rockets-name  text-3xl text-slate-800 mt-3" >Explorer</h3>
+                        <span class="rockets-price mt-3 text-3xl text-slate-600">$</span>
+                    </div>
+                    <div class="rockets-item w-1/3 bg-slate-100 rounded-[30px] border border-solid border-slate-900 shadow-xl p-5 flex flex-col items-center">
+                        <img src="./img/rocketman.png" alt="" class="rockets-image w-1/2 mx-auto">
+                        <h3 class="rockets-name  text-3xl text-slate-800 mt-3" >Explorer</h3>
+                        <span class="rockets-price mt-3 text-3xl text-slate-600">$</span>
+                    </div>
+                    <div class="rockets-item w-1/3 bg-slate-100 rounded-[30px] border border-solid border-slate-900 shadow-xl p-5 flex flex-col items-center">
+                        <img src="./img/rocketman.png" alt="" class="rockets-image w-1/2 mx-auto">
+                        <h3 class="rockets-name  text-3xl text-slate-800 mt-3" >Explorer</h3>
+                        <span class="rockets-price mt-3 text-3xl text-slate-600">$</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- SITE-MAIN -->
+
+
+
+   
+            
 </body>
 </html>
